@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Xilinx / Vivado / Vitis
+.Xil/
+.cache/
+.gen/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.srcs/
+*.jou
+*.log
+*.str
+*.dcp
+*.xdc.user
+*.wdb
+*.wcfg
+*.xml.tmp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

@@ -1,0 +1,6 @@
+tensorflow
+scikit-learn
+numpy
+joblib
+matplotlib
+hls4ml
