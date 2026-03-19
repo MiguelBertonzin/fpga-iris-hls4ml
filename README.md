@@ -2,10 +2,10 @@
 
 Este projeto implementa um classificador do dataset Iris em FPGA usando o fluxo:
 
-Python → Keras → hls4ml → Vitis HLS → Vivado → PYNQ-Z2
+Python → hls4ml → Vitis HLS → Vivado → PYNQ-Z2
 
 ## Objetivo
-Demonstrar um hello world completo de IA em FPGA, desde o treinamento do modelo até a inferência em hardware real na placa PYNQ-Z2.
+Demonstrar um fluxo completo de IA em FPGA, desde o treinamento do modelo até a inferência em hardware real na placa PYNQ-Z2.
 
 ## Pipeline
 1. Treinamento do modelo MLP no dataset Iris
@@ -33,12 +33,3 @@ Demonstrar um hello world completo de IA em FPGA, desde o treinamento do modelo 
 - `hls/`: conversão hls4ml, firmware e scripts Tcl
 - `pynq/`: notebook/script de inferência na placa
 - `results/`: relatórios e evidências visuais
-
-## Evidências
-Adicione aqui screenshots de:
-- relatório HLS
-- block design no Vivado
-- inferência rodando na PYNQ
-
-## Autor
-Miguel Bertonzin
